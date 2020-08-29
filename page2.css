@@ -1,0 +1,128 @@
+body{
+
+	height: 768px;
+	width:100%;
+	text-decoration: none;
+	font-family: 'Bebas Neue', cursive;
+
+}
+
+.menu_bar{
+
+	font-family: 'Bebas Neue', cursive;
+	width: 100%;
+	height: 8.5%;
+	font-size:35px;
+	text-transform: uppercase;
+	opacity: 1;
+	z-index: -1;
+}
+
+.brand{
+	position: absolute;
+	color: white;
+	left:5%;
+	top:3%;
+	letter-spacing: 1px;
+}
+
+.menu{
+
+	display: inline-flex;
+	position: absolute;
+	right:38.5%;
+	top:5%;
+	cursor: pointer;
+
+}
+
+.tab{
+	color: black;
+	margin: 3px;
+	background: white;
+	letter-spacing: 2px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+.tab:hover{
+	background: black;
+	color: white;
+}
+
+.body_section{
+	position: absolute;
+
+	top:0%;
+	left:0%;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	text-align: center;
+    background-attachment: scroll;
+    background-image:linear-gradient(89deg, rgba(0, 0, 0, 0.93), rgba(4, 0, 0, 1) 28.99%, rgba(0, 0, 0, 0.69)),
+     url(https://images.unsplash.com/photo-1565947954967-19e6478c4910?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-position: left center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: 100%;
+    -o-background-size: cover;
+}
+
+.font1{
+	color: white;
+	font-size: 100px;
+	font-family: 'Bebas Neue', cursive;
+	position: absolute;
+	top:20%;
+	left:7%;
+	width: 35%;
+}
+
+.font2{
+	color: white;
+
+	height: 8%;
+	width: 10;
+	font-size: 30px;
+	letter-spacing: 3px;
+	position: absolute;
+	top:35%;
+	left:5%;
+
+}	
+
+
+.font3{
+	display: inline-block;
+	width: 35%;
+	height: 40%;
+	color: white;
+	position: absolute;
+	top:42%;
+	left: 7.8%;
+	letter-spacing: 1px;
+	font-size: 20px;
+	text-align-last: center;
+
+}
+
+p{
+	background: white;
+	color: black;
+	display: inline;
+	width: 100%;
+	height: 7%
+	padding:1px;
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	background: black;
+	color: white;
+
+}

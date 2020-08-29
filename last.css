@@ -1,0 +1,122 @@
+body{
+  height: 768px;
+  width:100%;
+  font-family: 'Bebas Neue', cursive;
+  background: black;
+
+}
+
+.container{
+  position: absolute;
+  top:30%;
+  left:39.5%;
+  width: 50%;
+  height: 40%;
+  font-size: 200%
+}
+
+.tab{
+  text-align: center;
+
+  width: 500%;
+  height: 33%;
+
+}
+
+.fb{
+  position: absolute;
+  top:15%;
+  left:2%;
+  width: 71px;
+}
+
+.git{
+  position: absolute;
+  width: 10.4%;
+  top:15%;
+  left:2%;
+}
+
+.tweet{
+  position: absolute;
+  top:65px;
+  width: 100%;
+}
+
+.partition{
+
+  text-align: center;
+  width: 100%;
+  height: 33%;
+
+
+}
+
+.par2{
+
+  width: 100%;
+  height: 33%;
+  position: absolute;
+  top:33%;
+
+}
+
+.menu_bar{
+
+  font-family: 'Bebas Neue', cursive;
+
+  width: 100%;
+  height: 8.5%;
+  font-size:35px;
+  text-transform: uppercase;
+  opacity: 1;
+  z-index: -1;
+}
+
+.brand{
+  position: absolute;
+  color: white;
+  left:5%;
+  top:3%;
+  letter-spacing: 1px;
+}
+
+.menu{
+
+  display: inline-flex;
+  position: absolute;
+  right:35%;
+  top:5%;
+  cursor: pointer;
+
+
+
+}
+
+.tab{
+  color: black;
+  margin: 3px;
+  background: white;
+  letter-spacing: 2px;
+  padding: 5px;
+  text-transform: uppercase;
+
+
+
+}
+
+.tab:hover{
+  background: black;
+  color: white;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: white;
+  background: black;
+}
+
+
