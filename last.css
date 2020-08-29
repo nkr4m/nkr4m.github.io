@@ -26,7 +26,7 @@ body{
 .fb{
   position: absolute;
   top:15%;
-  left:2%;
+  left:-7%;
   width: 71px;
 }
 
@@ -34,7 +34,7 @@ body{
   position: absolute;
   width: 10.4%;
   top:15%;
-  left:2%;
+  left:-7%;
 }
 
 .tweet{
@@ -85,7 +85,7 @@ body{
 
   display: inline-flex;
   position: absolute;
-  right:35%;
+  right:40%;
   top:5%;
   cursor: pointer;
 
