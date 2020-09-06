@@ -1,0 +1,174 @@
+body{
+	height: 100%;
+	width:100%;
+
+}
+
+.menu_bar{
+
+	font-family: 'Bebas Neue', cursive;
+	position: absolute;
+	width: 100%;
+	top:2%;
+	left:33%;
+	height: 40%;
+	font-size:70px;
+	text-transform: uppercase;
+	opacity: 1;
+	z-index: -1;
+}
+
+.brand{
+	position: absolute;
+	color: white;
+	left:5%;
+	top:3%;
+	letter-spacing: 1px;
+}
+
+.menu{
+
+	display: inline-flex;
+	position: absolute;
+	right:35%;
+	top:5%;
+	cursor: pointer;
+
+
+
+}
+
+.tab{
+	color: black;
+	margin: 3px;
+	background: white;
+	letter-spacing: 2px;
+	padding: 5px;
+	text-transform: uppercase;
+
+
+
+}
+
+.tab:hover{
+	color: white;
+}
+
+.body_section{
+	height:100%;
+	width: 100%;
+	position:absolute;
+	top:0%;
+	left:0%;
+	z-index: -1;
+}
+
+.body_section{
+	text-align: center;
+    background-attachment: scroll;
+    background-image:linear-gradient(187deg, rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.69)),
+     url(https://images.unsplash.com/photo-1517400508447-f8dd518b86db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+
+
+    z-index: -2;
+}
+
+.intro_section{
+	width: 100%;
+	height: 50%;
+}
+
+.font1{
+
+
+	position: absolute;
+	width: 100%;
+	top:25%;
+
+	left:-11%;
+	font-size: 200px;
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+
+}
+
+.font2{
+	position: absolute;
+	font-family: 'Bebas Neue', cursive;
+	width: 100%;
+	height: 100%;
+	top:38%;
+	left:0%;
+	color: white;
+	font-size: 100px;
+
+}
+
+.font3{
+	position: absolute;
+	top:45%;
+	left:7%;
+	width: 76%;
+	padding: 5%;
+	font-size: 50px;
+
+	background: black;
+	font-family: 'Bebas Neue';
+	letter-spacing: 2px;
+	color: black;
+	background: white;
+	opacity: 0.9;
+}
+
+
+.font4{
+	position: absolute;
+	top:70%;
+	left:0%;
+	width:100%;
+	height: 100%;
+	text-align: center;
+	font-size: 30px;
+
+	font-family: 'Bebas Neue';
+	letter-spacing: 2px;
+	color: white;
+
+}
+
+.selected_menu{
+
+	color: white;
+	position: absolute;
+	left: -25%;
+	top: 15%;
+	letter-spacing: 2px;
+
+
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	color: white;
+	background: black;
+}
+
+.copyright{
+	color:black;
+	width: 100%;
+	position: absolute;
+	bottom: 2%;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-family: sans-serif;
+	background: white;
+	opacity: 0.1;
+}
