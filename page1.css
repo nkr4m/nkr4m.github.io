@@ -71,8 +71,6 @@ body{
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: 100%;
-
 
     z-index: -2;
 }
