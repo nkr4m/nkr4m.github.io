@@ -137,7 +137,6 @@ body{
 }
 
 .selected_menu{
-	background: black;
 	color: white;
 	position: absolute;
 	left: -25%;
