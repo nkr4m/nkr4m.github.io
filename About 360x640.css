@@ -52,26 +52,29 @@ body{
 
 .font1{
 	position: absolute;
-	top:20%;
-	left:33%;
+	top:11%;
+	left:28%;
 	font-size: 60px;
 	letter-spacing: 2px;
 }
 
 .font2{
 	position: absolute;
-	top:32%;
+	top:30%;
 	width: 100%;
 	left: 0%;
 	font-size: 20px;
+	letter-spacing: 1px;
+
 
 }
 
 .font3{
-	width: 86%;
-	left: 7%;
-	font-size: 15px;
-	top:40%;
+	width: 98%;
+	left: 1%;
+	font-size: 18px;
+	top:32%;
+	text-align: center;
 }
 
 .copyright{
